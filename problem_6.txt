@@ -2,8 +2,8 @@ V = S X W
 T = a x c w  
 start = S  
 S -> XXXXXXX | W
-X -> x | aXXX | epsilon | cXXX | wXXXXXXX; deal with a and x
-W -> wXXXXXXXX | x | epsilon
+X -> x | aXXX | epsilon | cXXX ; deal with a and x
+W -> wXXXXXXX | x | epsilon
 
 
 
