@@ -1,4 +1,4 @@
-V = S X C M W Z B
+V = S X C M W Z B A
 T = a x c w  
 start = S  
 S -> XXXXXXX | C | W
@@ -9,8 +9,8 @@ C -> cMMMMMMMMMM | McMMMMMMMMM | MMcMMMMMMMM | MMMcMMMMMMM | MMMMcMMMMMM ; deal 
 C -> MMMMMcMMMMM | MMMMMMcMMMM 
 M -> x | aMMM | epsilon | c
 
-W -> wBBBBBBW | BwBBBBBW | BBwBBBBW
-W -> BBBwBBBW | BBBBwBBW | BBBBBwBW | BBBBBBwW | ZZZZZZZ
-Z ->  x | w | epsilon | aZZZ
+W -> wBBBBBBW | AwBBBBBW | AAwBBBBW
+W -> AAAwBBBW | AAAAwBBW | AAAAAwBW | AAAAAAwW | ZZZZZZZ
+Z -> x | w | epsilon | aZZZ
 B -> x | w | a
-
+A -> x | w | aAAA
