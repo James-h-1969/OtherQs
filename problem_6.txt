@@ -2,4 +2,6 @@ V = S X
 T = a x c w  
 start = S  
 S -> XXXXXXX
-X -> x | aXX | epsilon
+X -> x | aXXX | epsilon
+
+
