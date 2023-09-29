@@ -1,9 +1,9 @@
 V = S X  
 T = a x c w  
 start = S  
-S -> XXXXXXX 
+S -> XXXXXXX | W
 X -> x | aXXX | epsilon | cXXX | wXXXXXXX; deal with a and x
-
+W -> wXXXXXXXX | x | epsilon
 
 
 
