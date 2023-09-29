@@ -9,11 +9,10 @@ C -> cMMMMMMMMMM | McMMMMMMMMM | MMcMMMMMMMM | MMMcMMMMMMM | MMMMcMMMMMM ; deal 
 C -> MMMMMcMMMMM | MMMMMMcMMMM 
 M -> x | aMMM | epsilon | c
 
-W -> ZZZZZZZ ; deal with a, w
-Z -> wBBBBBB | x | aZZZ | epsilon
+W -> wBBBBBBZZZZZZZ | BwBBBBBZZZZZZZ | BBwBBBBZZZZZZZ | 
+W -> BBBwBBBZZZZZZZ | BBBBwBBZZZZZZZ | BBBBBwBZZZZZZZ | BBBBBBwZZZZZZZ 
+Z ->  x | aZZZ | W | epsilon 
 B -> x | a | w
-
-
 
 
 
