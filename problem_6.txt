@@ -9,9 +9,9 @@ C -> cMMMMMMMMMM | McMMMMMMMMM | MMcMMMMMMMM | MMMcMMMMMMM | MMMMcMMMMMM ; deal 
 C -> MMMMMcMMMMM | MMMMMMcMMMM 
 M -> x | aMMM | epsilon | c
 
-W -> CBBBBBBW | BCBBBBBW | BBCBBBBW ;there is a w in deck
-W -> BBBCBBBW | BBBBwBBW | BBBBBCBW | BBBBBBCW | ZZZZZZZ 
-C -> aDDC | aDCD | aCDD | w
+W -> GBBBBBBW | BGBBBBBW | BBGBBBBW ;there is a w in deck
+W -> BBBGBBBW | BBBBwBBW | BBBBBGBW | BBBBBBGW | ZZZZZZZ 
+G -> aDDG | aDGD | aGDD | w
 
 Z -> x | w | epsilon | aZZZ 
 
