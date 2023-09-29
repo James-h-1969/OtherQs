@@ -1,4 +1,4 @@
-V = S X  
+V = S X W
 T = a x c w  
 start = S  
 S -> XXXXXXX | W
