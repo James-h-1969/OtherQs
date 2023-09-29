@@ -2,7 +2,7 @@ V = S X
 T = a x c w  
 start = S  
 S -> XXXXXXX 
-X -> x | aXXX | epsilon | cXXX ; deal with a and x
+X -> x | aXXX | epsilon | cXXX | wXXXXXXXX; deal with a and x
 
 
 
