@@ -1,9 +1,18 @@
-V = S X W
+V = S X C M
 T = a x c w  
 start = S  
-S -> XXXXXXX | W
-X -> x | aXXX | epsilon | cXXX ; deal with a and x
-W -> wXXXXXXX | x | epsilon
+S -> XXXXXXX | C
+
+X -> x | aXXX | epsilon ; deal with a and x
+
+C -> cMMMMMMMMMM | McMMMMMMMMM | MMcMMMMMMMM | MMMcMMMMMMM | MMMMcMMMMMM 
+C -> MMMMMcMMMMM | MMMMMMcMMMM | MMMMMMMcMMM | MMMMMMMMcMM | MMMMMMMMMcM | MMMMMMMMMMc
+
+M -> x | aMMM | epsilon | c
+
+
+
+
 
 
 
