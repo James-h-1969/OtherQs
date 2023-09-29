@@ -1,6 +1,5 @@
-V = S A    
+V = S X  
 T = a x c w  
 start = S  
-S -> C
-C -> XXXXXXX
+S -> XXXXXXX
 X -> x | aXX | epsilon
