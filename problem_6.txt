@@ -11,6 +11,6 @@ M -> x | aMMM | epsilon | c
 
 W -> wBBBBBBW | BwBBBBBW | BBwBBBBW
 W -> BBBwBBBW | BBBBwBBW | BBBBBwBW | BBBBBBwW | ZZZZZZZ
-Z ->  x | w | epsilon 
-B -> x | w
+Z ->  x | w | epsilon | aZZZ
+B -> x | w | a
 
