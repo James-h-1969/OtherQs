@@ -1,4 +1,4 @@
-V = S X C M W Z B A
+V = S X C M W Z B A C D
 T = a x c w  
 start = S  
 S -> XXXXXXX | C | W
@@ -9,8 +9,13 @@ C -> cMMMMMMMMMM | McMMMMMMMMM | MMcMMMMMMMM | MMMcMMMMMMM | MMMMcMMMMMM ; deal 
 C -> MMMMMcMMMMM | MMMMMMcMMMM 
 M -> x | aMMM | epsilon | c
 
-W -> wBBBBBBW | BwBBBBBW | BBwBBBBW
-W -> BBBwBBBW | BBBBwBBW | BBBBBwBW | BBBBBBwW | ZZZZZZZ
-Z -> x | w | epsilon | aZZZ
-B -> x | w | a
+W -> CBBBBBBW | BCBBBBBW | BBCBBBBW ;there is a w in deck
+W -> BBBCBBBW | BBBBwBBW | BBBBBCBW | BBBBBBCW | ZZZZZZZ 
+C -> aDDC | aDCD | aCDD | w
+
+Z -> x | w | epsilon | aZZZ 
+
+B -> x | w | a ; variables that have to exist
+
+D -> x | w | a | epsilon ; variables that can exist but dont matter
 
