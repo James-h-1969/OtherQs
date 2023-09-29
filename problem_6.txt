@@ -6,11 +6,9 @@ S -> XXXXXXX | C | W
 X -> x | aXXX | epsilon ; deal with a and x
 
 C -> cMMMMMMMMMM | McMMMMMMMMM | MMcMMMMMMMM | MMMcMMMMMMM | MMMMcMMMMMM ; deal with a, c, and x
-C -> MMMMMcMMMMM | MMMMMMcMMMM | MMMMMMMcMMM | MMMMMMMMcMM | MMMMMMMMMcM | MMMMMMMMMMc
-M -> x | aMMM | epsilon | cM
+C -> MMMMMcMMMMM | MMMMMMcMMMM 
+M -> x | aMMM | epsilon | c
 
-W -> ZZZZZZZ 
-Z -> x | wZZZZZZZ | epsilon | aZZZ
 
 
 
