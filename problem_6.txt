@@ -9,8 +9,8 @@ C -> cMMMMMMMMMM | McMMMMMMMMM | MMcMMMMMMMM | MMMcMMMMMMM | MMMMcMMMMMM ; deal 
 C -> MMMMMcMMMMM | MMMMMMcMMMM 
 M -> x | aMMM | epsilon | c
 
-W -> wBBBBBBW | AwBBBBBW | AAwBBBBW
-W -> AAAwBBBW | AAAAwBBW | AAAAAwBW | AAAAAAwW | ZZZZZZZ
+W -> wBBBBBBW | BwBBBBBW | BBwBBBBW
+W -> BBBwBBBW | BBBBwBBW | BBBBBwBW | BBBBBBwW | ZZZZZZZ
 Z -> x | w | epsilon | aZZZ
 B -> x | w | a
-A -> x | w | aAAA
+
