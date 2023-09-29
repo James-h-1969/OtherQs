@@ -1,7 +1,14 @@
-V = S X  
+V = S X M N 
 T = a x c w  
 start = S  
-S -> XXXXXXX
-X -> x | aXXX | epsilon
+S -> XXXXXXX | M
+
+X -> x | aXXX | epsilon ; deal with a and x
+
+M -> cNNNNNNNNNN | NcNNNNNNNNN | NNcNNNNNNNN 
+M -> NNNcNNNNNNN | NNNNcNNNNN | NNNNNcNNNNN 
+M -> NNNNNNcNNNN | NNNNNNNcNNN | NNNNNNNNcNN 
+M -> NNNNNNNNNcN | NNNNNNNNNNc
+N -> x | aNNN | epsilon  
 
 
