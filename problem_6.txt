@@ -1,4 +1,4 @@
-V = S X C M W Z B A C D
+V = S X C M W Z B A C D G
 T = a x c w  
 start = S  
 S -> XXXXXXX | C | W
