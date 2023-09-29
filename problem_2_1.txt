@@ -1,0 +1,2 @@
+S => AA => AAAAA => aAAAA => aAbAAAA => aabaAAA => aabaaAA => aabaaaA => aabaaaa
+S => AA => AAAAA => aAAAA => aaAAA => aabAAAA => aabaAAA => aabaaAA => aabaaaA => aabaaaa

@@ -1,0 +1,14 @@
+V = S A B C D E Z Y W X
+T = a b    
+start = S  
+S -> A | B | C | D | E | epsilon
+A -> Z b Z a Z ; substring of ba
+Z -> a Z | b Z | epsilon
+B -> a B b | epsilon | a Y b b ; of form a^i b^j where i < 2j + 3
+Y -> a Y b b | b W | epsilon
+W -> b | epsilon
+C -> a C b b | b b b b X ; of form a^i b^j where i > 2j + 3
+X -> b X | epsilon
+D -> a D | epsilon ; only as
+E -> b E | epsilon ; only bs
+

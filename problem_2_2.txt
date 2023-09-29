@@ -1,0 +1,10 @@
+V = S T A B    
+T = a b    
+start = S  
+S -> A A     
+T -> A A
+A -> A T
+A -> B A
+A -> A B 
+A -> a 
+B -> b

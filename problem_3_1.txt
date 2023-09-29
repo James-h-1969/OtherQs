@@ -1,0 +1,9 @@
+V = S A B O M L   
+T = a b    
+start = S  
+S -> O O O | M O L | O M L | M L O | L O M | L M O | O L M
+O -> A B | B A
+M -> A A 
+L -> B B
+A -> a
+B -> b

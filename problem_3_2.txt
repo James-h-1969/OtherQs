@@ -1,0 +1,7 @@
+V = S U V W 
+T = a b    
+start = S  
+S -> U V W
+U -> a U b | epsilon
+V -> a V b | epsilon
+W -> a W b | epsilon
